@@ -125,6 +125,8 @@ body{
     .container{
         width: 120rem;
         background-image: url('../assets/svg/bg-pattern-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
         position: relative;
     }
     .logo{
@@ -134,7 +136,10 @@ body{
         content: url('../assets/img/hero-desktop.jpg');
         position: absolute;
         right: 0;
+        bottom: 0;
         width: 50%;
+        height: 80rem;
+        margin: 0;
     }
     .info{
         width: 44.4rem;
